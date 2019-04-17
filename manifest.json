@@ -1,0 +1,17 @@
+{
+    "name": "Emma Smetana is disappointed in you",
+    "version": "1.0",
+    "description": "Emma Smetana is really disappointed with you opening incognito mode",
+    "manifest_version": 2,
+    "background": {
+        "scripts": ["popup.js"],
+        "persistent": false
+    },
+    "incognito": "split",
+    "permissions": ["tabs"],
+    "icons": {
+      "16": "icon/icon_32.png",
+      "48": "icon/icon_48.png",
+      "128": "icon/icon_128.png"
+    }
+}
